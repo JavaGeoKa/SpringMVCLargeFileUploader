@@ -21,7 +21,7 @@ public class FileUploadController {
     @GetMapping("/upload")
     public @ResponseBody
     String provideUploadInfo() {
-        return "You can upload the file using the same url\n";
+        return "<h1>You can upload the file using the same url\n</h1>";
     }
 
 
